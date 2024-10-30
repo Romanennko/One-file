@@ -15,7 +15,7 @@ int main()
             puts("UPS!!!");
             break;
         }
-        if (computer_num == user_num) {
+        else if (computer_num == user_num) {
             printf("You win! You needed for this %d attempts", count);
             break;
         }
