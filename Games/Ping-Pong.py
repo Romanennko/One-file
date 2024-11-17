@@ -106,7 +106,7 @@ while True:
         pen.clear()
         blue_player.goto(1000, 1000)
         red_player.goto(1000, 1000)
-        blue_win.write(f'Blue player win!!!', align='center', font=('Verdana', 22, 'normal'))
+        blue_win.write('Blue player win!!!', align='center', font=('Verdana', 22, 'normal'))
         score.write(f'Blue score: {score_blue_player}\nRed score: {score_red_player}',
                     align='center', font=('Verdana', 22, 'normal'))
 
